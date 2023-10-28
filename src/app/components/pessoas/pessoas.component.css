@@ -1,0 +1,29 @@
+.littleContainerPessoas{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 85vh;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+.contentPessoa{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.littleContainerPessoa > button{
+  width: 30px;
+  height: 30px;
+}
+
+
+.contentPessoa > span{
+  text-decoration: none;
+  color: gray;
+}
+
+.contentPessoa > p{
+  font-weight: bold;
+}
