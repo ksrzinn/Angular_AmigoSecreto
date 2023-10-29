@@ -27,3 +27,7 @@
 .contentPessoa > p{
   font-weight: bold;
 }
+
+*{
+  background-color: white;
+}

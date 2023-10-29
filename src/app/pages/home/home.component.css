@@ -1,0 +1,39 @@
+.bigContainer{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 85%;
+  height: 100vh;
+  justify-items: center;
+  justify-content: center;
+}
+
+.separator > hr {
+  height: 100%;
+}
+
+.container-card-pessoas-title{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+.pages{
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+  justify-items: center;
+  justify-content: center;
+  height: 30vh;
+  margin-top: 60px;
+}
+
+.pages > a {
+  text-decoration: none;
+  color: #6187A9;
+}
+
+*{background-color: white;}

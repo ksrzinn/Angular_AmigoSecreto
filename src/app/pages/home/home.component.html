@@ -1,9 +1,16 @@
 <div class="bigContainer">
+  <!-- Div Pages precisa ir para Component navigation-bar -->
   <div class="pages">
-    <a href=""></a>
-    <a href=""></a>
-    <a href=""></a>
+    <a href="#">Home</a>
+    <a href="#">Cadastros</a>
+    <a href="#">Sorteio</a>
   </div>
-  <h1>Sorteio do Amigo Secreto</h1>
-  <app-card-pessoas></app-card-pessoas>
+  <div class="separator">
+    <hr>
+  </div>
+  <div class="container-card-pessoas-title">
+    <!-- h1 precisa ir para pageTitle component -->
+    <app-pagetitle title="Sorteio do Amigo Secreto"></app-pagetitle>
+    <app-card-pessoas></app-card-pessoas>
+  </div>
 </div>
