@@ -11,6 +11,7 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
 import { HomeComponent } from './pages/home/home.component';
 import { SorteioComponent } from './pages/sorteio/sorteio.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
+import { InputCardComponent } from './components/cadastro/input-card/input-card.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CadastroComponent } from './pages/cadastro/cadastro.component';
     SearchBarComponent,
     HomeComponent,
     SorteioComponent,
-    CadastroComponent
+    CadastroComponent,
+    InputCardComponent
   ],
   imports: [
     BrowserModule,

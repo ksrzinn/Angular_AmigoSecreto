@@ -1,0 +1,16 @@
+.containerLinks{
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+  justify-items: center;
+  justify-content: center;
+  height: 30vh;
+  margin-top: 60px;
+}
+
+.containerLinks > a {
+  text-decoration: none;
+  color: #6187A9;
+}
+
+*{background-color: white;}
