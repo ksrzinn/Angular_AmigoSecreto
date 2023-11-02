@@ -1,0 +1,30 @@
+*{
+  background-color: white;
+}
+
+.bigCont{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.buttonSubmit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.buttonSubmit > button{
+  background-color: #3E70B0;
+  color: #D9DEF1;
+}

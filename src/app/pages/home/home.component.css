@@ -9,10 +9,6 @@
   justify-content: center;
 }
 
-.separator > hr {
-  height: 100%;
-}
-
 .container-card-pessoas-title{
   display: flex;
   flex-direction: column;

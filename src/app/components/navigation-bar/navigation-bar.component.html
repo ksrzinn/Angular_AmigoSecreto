@@ -1,11 +1,35 @@
-<div class="containerLinks">
-  <a [routerLink]="['']">
-    Home
-  </a>
-  <a [routerLink]="['cadastro']">
-    Cadastro
-  </a>
-  <a [routerLink]="['sorteio']">
-    Sorteio
-  </a>
-</div>
+<header class="containerLinks">
+  <nav>
+
+    <ul>
+
+      <li>
+        <a
+        [routerLink]="['']"
+        [routerLinkActive]="['activated']"
+        [routerLinkActiveOptions]="{exact: true}">
+          HOME
+        </a>
+      </li>
+
+      <li>
+        <a
+        [routerLink]="['cadastro']"
+        [routerLinkActive]="['activated']"
+        [routerLinkActiveOptions]="{exact: true}">
+          CADASTRO
+        </a>
+      </li>
+
+      <li>
+        <a
+        [routerLink]="['sorteio']"
+        [routerLinkActive]="['activated']"
+        [routerLinkActiveOptions]="{exact: true}">
+          SORTEIO
+        </a>
+      </li>
+
+    </ul>
+  </nav>
+</header>

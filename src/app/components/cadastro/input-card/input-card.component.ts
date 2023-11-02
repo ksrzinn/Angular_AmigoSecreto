@@ -6,6 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./input-card.component.css']
 })
 export class InputCardComponent implements OnInit {
+  nome: string = '';
+  email: string = '';
+
+  cadastrar(){
+    console.log(this.nome);
+    console.log(this.email);
+
+    this.nome = '';
+    this.email = '';
+
+  }
 
   constructor() { }
 
